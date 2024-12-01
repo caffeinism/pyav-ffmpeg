@@ -332,6 +332,7 @@ def main():
         "--enable-lzma",
         "--enable-zlib",
         "--enable-version3",
+        "--enable-libsvtav1",
     ]
     if disable_gpl:
         ffmpeg_package.build_arguments.extend(
